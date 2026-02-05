@@ -63,5 +63,5 @@ class Baker():
         choice = int(input("Which cake?: \n")) - 1
         return f"{self.cakes_sampled[choice].flavour} was your favourite!"
 
-# Run bakery_2 with `python3 -i exercise_2.py`
-# ( Or if you use ipython, then `ipython -i exercise_2.py`)
+# Run bakery_2 with `python3 -i exercise_1.py`
+# ( Or if you use ipython, then `ipython -i exercise_1.py`)
