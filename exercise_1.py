@@ -3,12 +3,26 @@ class Cake():
         self.flavour = ""
         self.size = 100
     
+    # Parameters:
+    #  - 
+    # Returns:
+    #  - 
+    # Side effect:
+    #  - 
     def set_flavour(self, flavour):
         self.flavour = flavour
-    
+
+    # Parameters:
+    #  - 
+    # Returns:
+    #  - 
+    # Side effect:
+    #  - 
+    #  -
     def take_slice(self, slice):
         self.size -= slice
         print(f"You have taken a {slice} percent sized slice. \n There is {self.size} percent cake remaining.")
+
 
 class Baker():
     def __init__(self):
@@ -48,3 +62,6 @@ class Baker():
         print("Pick the number as it appears in the list.")
         choice = int(input("Which cake?: \n")) - 1
         return f"{self.cakes_sampled[choice].flavour} was your favourite!"
+
+# Run bakery_2 with `python3 -i exercise_2.py`
+# ( Or if you use ipython, then `ipython -i exercise_2.py`)

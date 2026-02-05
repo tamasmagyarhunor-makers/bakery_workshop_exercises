@@ -77,4 +77,5 @@ def run():
 
 order = run()
 
-# Run bakery_2 with `python3 -i bakery_2.py`
+# Run bakery_2 with `python3 -i exercise_2.py`
+# ( Or if you use ipython, then `ipython -i exercise_2.py`)
